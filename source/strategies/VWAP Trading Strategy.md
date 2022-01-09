@@ -5,7 +5,7 @@ tags: [Strategies]
 ---
 # VWAP Trading Strategy
 
-> Last Edited Date: 12/12/2021
+> Last Edited Date: 09/01/2022
 
 ## Introduction
 
