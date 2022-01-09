@@ -1,0 +1,47 @@
+input: .
+output: ..
+url: docs.algostorm.com
+
+branding:
+  title: AlgoStorm.com
+  logo: /static/algostorm-logo-dark.svg
+  logoDark: /static/algostorm-logo-light.svg
+  label: Docs
+
+meta:
+  title: " - AlgoStorm.com"
+
+edit:
+  repo: https://labinatorsolutions.github.io/algostorm-docs/
+
+links:
+  - text: Home
+    link: /README.md
+    icon: home
+
+  - text: Website
+    link: https://algostorm.com/
+    icon: globe
+    target: blank
+
+  - text: Calculators
+    link: https://calc.algostorm.com/
+    icon: number
+    target: blank
+
+  - text: Discord
+    link: https://discord.gg/bJjbnpQhm7
+    icon: server
+    target: blank
+
+  - text: GitHub
+    link: https://labinatorsolutions.github.io/algostorm-docs/
+    icon: mark-github
+    target: blank
+
+footer:
+  copyright: © Copyright {{ year }}. [AlgoStorm.com](https://algostorm.com/). All rights reserved.
+  links:
+    - text: About
+      link: https://algostorm.com/about/
+      target: blank
