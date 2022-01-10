@@ -26,11 +26,11 @@
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.11.695028966595" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.695064742179" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.695028966595" defer data-turbo-track="reload"></script>
-    <script type="text/javascript" src="/resources/js/retype.js?v=1.11" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.695028966595" defer></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.695064742179" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.695064742179" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -326,12 +326,12 @@
 </doc-anchor-target>
 <ul>
 <li>The <strong>RMD (14)</strong> must either be overbought (<strong>above 70</strong>) or oversold (<strong>below 30</strong>) depending on the direction of the trade. If the RMD was overbought/oversold within the last <strong>3 candles</strong>, it would still be valid.</li>
-<li>If the <strong>RMDx2</strong> or <strong>RMDx3</strong> or the <strong>RMD of BTC</strong> is also overbought/oversold depending on the direction of the trade, the odds of success greatly increases.</li>
 <li>You need at least one Heikin Ashi candle without a wick to support the direction of your trade.</li>
-<li>The <strong>lagging span line</strong> crosses the lower band (for short positions) or upper band (for long positions) of the <strong>ASG Channel</strong>.</li>
+<li>The price action must cross the <strong>10 Simple Moving Average (SMA)</strong> supporting the direction of the trade.</li>
 <li>Pay attention to the <strong>volume spikes</strong> on the Advanced Volume Panel (<strong>AVP</strong>) indicator. When you see a spike while the above conditions are valid, then it might be a good signal to start averaging in.</li>
 <li>It is considered an advantage if one or more of the following conditions also applies:
 <ul>
+<li>If the <strong>RMDx2</strong> or <strong>RMDx3</strong> or the <strong>RMD of BTC</strong> is also overbought/oversold depending on the direction of the trade.</li>
 <li>If the <strong>[B]</strong> or the <strong>[S]</strong> signs on your chart are printed.</li>
 <li>If the price action crosses the <strong>20 Simple Moving Average (SMA)</strong>.</li>
 <li>If the price action enters the <strong>ASG Channel</strong>.</li>
