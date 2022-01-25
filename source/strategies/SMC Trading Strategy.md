@@ -3,9 +3,9 @@ order: 2
 icon: zap
 tags: [Strategies]
 ---
-# VWAP Trading Strategy
+# SMC Trading Strategy
 
-> Last Edited Date: 09/01/2022
+> Last Edited Date: 25/01/2022
 
 ## Introduction
 
@@ -31,13 +31,14 @@ This is a scalping strategy that utilizes the AlgoStorm's premium indicators.
 ## Preparations
 
 - Thoroughly analyze the market structure.
-- Identify the **support** and **resistance** zones on 15-minutes, and 1-hour time frames.
+- Identify the **support** and **resistance** zones on 15-minutes, 1-hour, and daily time frames.
+- Plot the **anchored VWAP** from the swing high and the swing low on the 4-hour time frames.
 - Draw the **trend lines** on the 1-minute time frame.
 
 ## Required Indicators
 
-- The AlgoStorm Revolutionary Momentum Decoder (**RMD**) indicator.
 - The AlgoStorm Supreme Market Compass (**SMC**) indicator.
+- The AlgoStorm Revolutionary Momentum Decoder (**RMD**) indicator.
 - The AlgoStorm Advanced Volume Panel (**AVP**) indicator.
 
 > **Note 1**: You also need an account on [TradingView.com](https://www.tradingview.com/gopro/?share_your_love=labinatorhub) to load the above indicators.
@@ -53,13 +54,12 @@ This is a scalping strategy that utilizes the AlgoStorm's premium indicators.
 - Evaluate the position only if the price action is within the **third VWAP deviation** or near the end of the second deviation.
 - **Skip** any entry during the first **three hours** of the trading session (i.e. when the VWAP resets). Alternatively, you can use the VWAP deviations from the **previous session** until the first three hours are over.
 - At least two candles of **Heikin Ashi** must agree with the direction of the trade.
-- The price action must cross the **10 Simple Moving Average (SMA)** supporting the direction of the trade.
-- The **RMD (14)** must either be overbought (**above 80**) or oversold (**below 20**) depending on the direction of the trade. If the RMD was overbought/oversold within the last **5 candles**, it would still be valid.
+- The price action must cross the **20 Simple Moving Average (SMA)** supporting the direction of the trade.
+- The **RMD (14)** must either be overbought (**above 80**) or oversold (**below 20**) depending on the direction of the trade. If the RMD was overbought/oversold within the last **7 candles**, it would still be valid.
 - Pay attention to the **volume spikes** on the Advanced Volume Panel (**AVP**) indicator. When you see a spike while the above conditions are valid, then it might be a good signal to start averaging in.
 - It is considered an advantage if one or more of the following conditions also applies:
    - If the **RMDx2** or **RMDx3** or the **RMD of BTC** is also overbought/oversold depending on the direction of the trade.
    - If the **[B]** or the **[S]** signs on your chart are printed.
-   - If the price action crosses the **20 Simple Moving Average (SMA)**.
    - If the price action enters the **ASG Channel**.
 
 ## Where To Place The Stop Loss?
@@ -86,8 +86,8 @@ This is a scalping strategy that utilizes the AlgoStorm's premium indicators.
 
 ### Example 1 - SOL/USDT (1-min)
 
-![Example 1 - SOL/USDT Long Position](./VWAP-Scalping-Strategy-Example-1.png)
+![Example 1 - SOL/USDT Long Position](./SMC-Scalping-Strategy-Example-1.png)
 
 ### Example 2 - SOL/USDT (1-min)
 
-![Example 2 - SOL/USDT Short Position](./VWAP-Scalping-Strategy-Example-2.png)
+![Example 2 - SOL/USDT Short Position](./SMC-Scalping-Strategy-Example-2.png)

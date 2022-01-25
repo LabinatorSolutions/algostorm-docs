@@ -5,7 +5,7 @@ tags: [Strategies]
 ---
 # RMD Trading Strategy
 
-> Last Edited Date: 09/01/2022
+> Last Edited Date: 25/01/2022
 
 ## Introduction
 
@@ -29,6 +29,7 @@ This is a swing trading strategy that utilizes the AlgoStorm's premium indicator
 
 - Thoroughly analyze the market structure.
 - Identify the **support** and **resistance** zones on 12-hour, daily, and weekly time frames.
+- Plot the **anchored VWAP** from the swing high and the swing low on the 12-hour time frame.
 - Draw the **trend lines** on the 12-hour time frame.
 
 ## Required Indicators
@@ -47,14 +48,13 @@ This is a swing trading strategy that utilizes the AlgoStorm's premium indicator
 
 ## When To Enter?
 
-- The **RMD (14)** must either be overbought (**above 70**) or oversold (**below 30**) depending on the direction of the trade. If the RMD was overbought/oversold within the last **3 candles**, it would still be valid.
+- The **RMD (14)** must either be overbought (**above 70**) or oversold (**below 30**) depending on the direction of the trade. If the RMD was overbought/oversold within the last **4 candles**, it would still be valid.
 - You need at least one Heikin Ashi candle without a wick to support the direction of your trade.
-- The price action must cross the **10 Simple Moving Average (SMA)** supporting the direction of the trade.
+- The price action must cross the **20 Simple Moving Average (SMA)** supporting the direction of the trade.
 - Pay attention to the **volume spikes** on the Advanced Volume Panel (**AVP**) indicator. When you see a spike while the above conditions are valid, then it might be a good signal to start averaging in.
 - It is considered an advantage if one or more of the following conditions also applies:
    - If the **RMDx2** or **RMDx3** or the **RMD of BTC** is also overbought/oversold depending on the direction of the trade.
    - If the **[B]** or the **[S]** signs on your chart are printed.
-   - If the price action crosses the **20 Simple Moving Average (SMA)**.
    - If the price action enters the **ASG Channel**.
 
 ## Where To Place The Stop Loss?

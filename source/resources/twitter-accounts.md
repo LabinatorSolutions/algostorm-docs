@@ -23,6 +23,8 @@ tags: [Resources]
 - [Dave The Wave](https://twitter.com/davthewave)
 - [David Puell](https://twitter.com/kenoshaking)
 - [Digital Assets Threads](https://twitter.com/arcane_tiger)
+- [Dylan LeClair](https://twitter.com/DylanLeClair)
+- [Gareth Soloway](https://twitter.com/GarethSoloway)
 - [Gert Van Lagen](https://twitter.com/GertvanLagen)
 - [Jordan Lindsey](https://twitter.com/jclcapital)
 - [Lunar Crush](https://twitter.com/LunarCRUSH)
