@@ -5,7 +5,7 @@ tags: [Strategies]
 ---
 # SMC Trading Strategy
 
-> Last Edited Date: 25/01/2022
+> Last Edited Date: 13/02/2022
 
 ## Introduction
 
@@ -54,11 +54,11 @@ This is a scalping strategy that utilizes the AlgoStorm's premium indicators.
 - Evaluate the position only if the price action is within the **third VWAP deviation** or near the end of the second deviation.
 - **Skip** any entry during the first **three hours** of the trading session (i.e. when the VWAP resets). Alternatively, you can use the VWAP deviations from the **previous session** until the first three hours are over.
 - At least two candles of **Heikin Ashi** must agree with the direction of the trade.
-- The price action must cross the **20 Simple Moving Average (SMA)** supporting the direction of the trade.
+- The price action must cross the **21 Exponential Moving Average (EMA)** supporting the direction of the trade.
 - The **RMD (14)** must either be overbought (**above 80**) or oversold (**below 20**) depending on the direction of the trade. If the RMD was overbought/oversold within the last **7 candles**, it would still be valid.
 - Pay attention to the **volume spikes** on the Advanced Volume Panel (**AVP**) indicator. When you see a spike while the above conditions are valid, then it might be a good signal to start averaging in.
 - It is considered an advantage if one or more of the following conditions also applies:
-   - If the **RMDx2** or **RMDx3** or the **RMD of BTC** is also overbought/oversold depending on the direction of the trade.
+   - If the **RMD (28)** or **RMD (56)** or the **RMD of BTC** is also overbought/oversold depending on the direction of the trade.
    - If the **[B]** or the **[S]** signs on your chart are printed.
    - If the price action enters the **ASG Channel**.
 

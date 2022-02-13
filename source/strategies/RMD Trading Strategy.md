@@ -5,7 +5,7 @@ tags: [Strategies]
 ---
 # RMD Trading Strategy
 
-> Last Edited Date: 25/01/2022
+> Last Edited Date: 13/02/2022
 
 ## Introduction
 
@@ -50,10 +50,10 @@ This is a swing trading strategy that utilizes the AlgoStorm's premium indicator
 
 - The **RMD (14)** must either be overbought (**above 70**) or oversold (**below 30**) depending on the direction of the trade. If the RMD was overbought/oversold within the last **4 candles**, it would still be valid.
 - You need at least one Heikin Ashi candle without a wick to support the direction of your trade.
-- The price action must cross the **20 Simple Moving Average (SMA)** supporting the direction of the trade.
+- The price action must cross the **21 Exponential Moving Average (EMA)** supporting the direction of the trade.
 - Pay attention to the **volume spikes** on the Advanced Volume Panel (**AVP**) indicator. When you see a spike while the above conditions are valid, then it might be a good signal to start averaging in.
 - It is considered an advantage if one or more of the following conditions also applies:
-   - If the **RMDx2** or **RMDx3** or the **RMD of BTC** is also overbought/oversold depending on the direction of the trade.
+   - If the **RMD (28)** or **RMD (56)** or the **RMD of BTC** is also overbought/oversold depending on the direction of the trade.
    - If the **[B]** or the **[S]** signs on your chart are printed.
    - If the price action enters the **ASG Channel**.
 
