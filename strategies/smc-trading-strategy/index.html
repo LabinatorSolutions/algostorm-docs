@@ -8,29 +8,29 @@
     <!-- Primary Meta Tags -->
     <title>SMC Trading Strategy - AlgoStorm.com</title>
     <meta name="title" content="SMC Trading Strategy - AlgoStorm.com">
-    <meta name="description" content="Last Edited Date: 13/02/2022" />
+    <meta name="description" content="Last Edited Date: 22/02/2022" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.algostorm.com/strategies/smc-trading-strategy/">
     <meta property="og:title" content="SMC Trading Strategy - AlgoStorm.com">
-    <meta property="og:description" content="Last Edited Date: 13/02/2022">
+    <meta property="og:description" content="Last Edited Date: 22/02/2022">
     <meta property="og:image" content="https://docs.algostorm.com/strategies/smc-scalping-strategy-example-1.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.algostorm.com/strategies/smc-trading-strategy/">
     <meta property="twitter:title" content="SMC Trading Strategy - AlgoStorm.com">
-    <meta property="twitter:description" content="Last Edited Date: 13/02/2022">
+    <meta property="twitter:description" content="Last Edited Date: 22/02/2022">
     <meta property="twitter:image" content="https://docs.algostorm.com/strategies/smc-scalping-strategy-example-1.png">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.11.2.698082514141" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.698832817992" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698082514141" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698832817992" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698082514141" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698832817992" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -248,7 +248,7 @@
     </h1>
 </doc-anchor-target>
 <blockquote>
-<p>Last Edited Date: 13/02/2022</p>
+<p>Last Edited Date: 22/02/2022</p>
 </blockquote>
 <doc-anchor-target id="introduction">
     <h2>
@@ -282,7 +282,7 @@
 <li>Our recommended exchange is <a href="https://www.bybit.com/en-US/invite?ref=YMYQ0%230">Bybit.com</a></li>
 <li>The commissions on <a href="https://www.bybit.com/en-US/invite?ref=YMYQ0%230">Bybit.com</a> are (<strong>0.075%</strong>) per action.</li>
 <li>Due to the rebate rate of (<strong>0.025%</strong>) on <a href="https://www.bybit.com/en-US/invite?ref=YMYQ0%230">Bybit.com</a>, you will only have to pay (<strong>0.05%</strong>) commission per trade.</li>
-<li>For closing the order, make a post-only limit order to secure the rebate rate rather than using the take-profit (TP) feature.</li>
+<li>To close the order, make a post-only limit order to secure the rebate rate rather than using the take-profit (TP) feature.</li>
 </ul>
 <doc-anchor-target id="preparations">
     <h2>
@@ -294,7 +294,7 @@
 <li>Thoroughly analyze the market structure.</li>
 <li>Identify the <strong>support</strong> and <strong>resistance</strong> zones on 15-minutes, 1-hour, and daily time frames.</li>
 <li>Plot the <strong>anchored VWAP</strong> from the swing high and the swing low on the 4-hour time frames.</li>
-<li>Draw the <strong>trend lines</strong> on the 1-minute time frame.</li>
+<li>Draw the <strong>trend lines</strong> on the 1-minute and 15-minute time frames.</li>
 </ul>
 <doc-anchor-target id="required-indicators">
     <h2>
@@ -320,7 +320,7 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li>1 minute.</li>
+<li>Analyze on the 15-minute then use the 1-minute to identify a precise entry.</li>
 </ul>
 <doc-anchor-target id="when-to-enter">
     <h2>
@@ -356,7 +356,7 @@
 <p><strong>Note 1</strong>: Some expert scalpers do not use a stop loss but instead mark certain invalidation levels. When the price action reaches these levels, they close the order manually. This approach requires full active management, but it improves your win rate since your order will not be closed by some wicks due to market manipulation. Depending on your time schedule and trading style, this technique may or may not be suitable for you. It also requires a great level of discipline since you need to take action and accept the loss at such invalidation levels.</p>
 </blockquote>
 <blockquote>
-<p><strong>Note 2</strong>: Some expert scalpers when they are very confident about their decision and analysis, they also trade without a stop loss while entering in stages similar to how a DCA bot behaves. Then they close the order in stages as well, at certain key levels. This technique is advanced and not recommended for beginners, but it is good to be aware of it since you will reach this level with enough practice and experience.</p>
+<p><strong>Note 2</strong>: Some expert scalpers when they are very confident about their decision and analysis, they trade without a stop loss while entering in stages similar to how a DCA bot behaves. Then they close the order in stages as well, at certain key levels. Instead of using a stop loss, they tune alarms and limit orders while thoroughly evaluating the position before taking a decision. This obviously requires more attention, experience, and work.</p>
 </blockquote>
 <doc-anchor-target id="when-to-take-profit">
     <h2>
@@ -365,7 +365,7 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li>Calculate the take profit by multiplying the distance of the stop loss from the entry by <strong>1.5</strong> as we are using a risk to reward ratio of <strong>1:1.5</strong>.</li>
+<li>Calculate the take profit by multiplying the distance of the stop loss from the entry by <strong>1.7</strong> as we are using a risk to reward ratio of <strong>1:1.7</strong>.</li>
 <li>You can also consider selling your order in stages at certain key levels.</li>
 <li>For conservative traders, make sure your final take-profit level is not above the VWAP when entering long positions or below the VWAP when entering short positions. In other words, the VWAP is your final target.</li>
 </ul>
@@ -377,8 +377,8 @@
 </doc-anchor-target>
 <ol>
 <li>For best results, practice the art of <strong>entering</strong> and <strong>exiting</strong> the order <strong>in stages</strong>.</li>
-<li>Your position size must not be more than <strong>10%</strong> of your allocated scalping funds.</li>
-<li>When you are starting out, do not use leverage. When you become consistently profitable for at least <strong>6 months</strong> in a row, you can then consider using very low leverage (<strong>x2-x5</strong>).</li>
+<li>It is advisable not to risk more than <strong>2%-3%</strong> per trade.</li>
+<li>When you are starting out, do not use leverage. When you become consistently profitable for at least <strong>8 months</strong> in a row, you can then consider using very low leverage (<strong>x2-x5</strong>).</li>
 </ol>
 <doc-anchor-target id="examples">
     <h2>
