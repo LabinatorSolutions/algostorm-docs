@@ -32,7 +32,7 @@ Storing crypto should be done with extreme caution. It is highly recommended to 
 - [Coin98 Wallet](https://coin98.com/wallet)
 - [BitKeep](https://bitkeep.com/)
 - [Exodus](https://www.exodus.com/)
-- [Atomic Wallet](Atomicwallet.io)
+- [Atomic Wallet](https://Atomicwallet.io)
 
 ---
 
