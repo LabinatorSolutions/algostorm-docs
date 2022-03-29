@@ -103,3 +103,9 @@ If you are new to the concept of divergences, a quick cheat sheet can be found b
 ### Example 2 - BTC/USDT - Short Position (15-min)
 
 ![Example 2 - BTC/USDT - Short Position (15-min)](./Trend-Following-Trading-Strategy-Short-Position.png)
+
+---
+
+!!!warning Important Note
+Always **backtest** any strategy at least **300 times** before using it. We also advise new traders to forward test their strategies for several months before injecting any capital.
+!!!
