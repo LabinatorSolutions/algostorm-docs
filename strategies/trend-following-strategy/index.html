@@ -11,29 +11,29 @@
     <!-- Primary Meta Tags -->
     <title>Trend Following Strategy - AlgoStorm.com</title>
     <meta name="title" content="Trend Following Strategy - AlgoStorm.com">
-    <meta name="description" content="Last Edited Date: 26/03/2022" />
+    <meta name="description" content="Last Edited Date: 29/03/2022" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.algostorm.com/strategies/trend-following-strategy/">
     <meta property="og:title" content="Trend Following Strategy - AlgoStorm.com">
-    <meta property="og:description" content="Last Edited Date: 26/03/2022">
-    <meta property="og:image" content="https://docs.algostorm.com/strategies/trend-following-trading-strategy-long-position.png">
+    <meta property="og:description" content="Last Edited Date: 29/03/2022">
+    <meta property="og:image" content="https://docs.algostorm.com/strategies/divergences-cheat-sheet.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.algostorm.com/strategies/trend-following-strategy/">
     <meta property="twitter:title" content="Trend Following Strategy - AlgoStorm.com">
-    <meta property="twitter:description" content="Last Edited Date: 26/03/2022">
-    <meta property="twitter:image" content="https://docs.algostorm.com/strategies/trend-following-trading-strategy-long-position.png">
+    <meta property="twitter:description" content="Last Edited Date: 29/03/2022">
+    <meta property="twitter:image" content="https://docs.algostorm.com/strategies/divergences-cheat-sheet.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=2.1.701653612542" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.1.701861234737" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.1.701653612542" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.1.701861234737" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.1" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.1.701653612542" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.1.701861234737" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -233,7 +233,7 @@
     </h1>
 </doc-anchor-target>
 <blockquote>
-<p>Last Edited Date: 26/03/2022</p>
+<p>Last Edited Date: 29/03/2022</p>
 </blockquote>
 <doc-anchor-target id="introduction">
     <h2>
@@ -267,20 +267,6 @@
 <li>Our recommended exchange is <a href="https://www.bybit.com/en-US/invite?ref=YMYQ0%230">Bybit.com</a></li>
 <li>Regardless of the exchange, to close the order, make a post-only limit order to save on fees rather than using the take-profit (TP) feature.</li>
 </ul>
-<doc-anchor-target id="preparations">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#preparations">#</doc-anchor-trigger>
-        <span>Preparations</span>
-    </h2>
-</doc-anchor-target>
-<ul>
-<li>Thoroughly analyze the market structure.</li>
-<li>Identify the <strong>support</strong> and <strong>resistance</strong> zones on all major time frames.</li>
-<li>Plot the <strong>anchored VWAP</strong> from the swing high and the swing low on all major time frames.</li>
-<li>Analyze the market structure on all major time frames.</li>
-<li>Draw the <strong>trend lines</strong> on all major time frames.</li>
-</ul>
-<p><strong>Note</strong>: The major time frames in our book are the following: The weekly, daily, hourly, and 15-minute time frames.</p>
 <doc-anchor-target id="required-indicators">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#required-indicators">#</doc-anchor-trigger>
@@ -292,8 +278,10 @@
 <li>The AlgoStorm Legendary Momentum Dragon (<strong>LMD</strong>) indicator.</li>
 </ul>
 <blockquote>
-<p><strong>Note 1</strong>: You also need an account on <a href="https://www.tradingview.com/gopro/?share_your_love=labinatorhub">TradingView.com</a> to load the above indicators.
-<strong>Note 2</strong>: You gain access to the required indicators, please join us at <a href="https://algostorm.com">AlgoStorm.com</a></p>
+<p><strong>Note 1</strong>: You also need an account on <a href="https://www.tradingview.com/gopro/?share_your_love=labinatorhub">TradingView.com</a> to load the above indicators.</p>
+</blockquote>
+<blockquote>
+<p><strong>Note 2</strong>: You gain access to the required indicators, please join us at <a href="https://algostorm.com">AlgoStorm.com</a></p>
 </blockquote>
 <doc-anchor-target id="time-frames">
     <h2>
@@ -302,21 +290,33 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li>Analyze the chart on the following time frames in this precise order:
+<li>Analyze the chart on the following time frames:
 <ul>
-<li>The weekly time frame.</li>
 <li>The daily time frame.</li>
 <li>The 4-hour time frame.</li>
-<li>The 1-hour time frame.</li>
 <li>The 15-minute time frame.</li>
-<li>The 5-minute time frame.</li>
+<li>The 1-minute time frame.</li>
 </ul>
 </li>
 </ul>
 <blockquote>
-<p><strong>Note 1</strong>: Regardless of whether you are doing scalping, day trading, or swing trading, you always need to analyze the chart on all major time frames.
-<strong>Note 2</strong>: For day traders, we recommend monitoring the 15-minute charts. For swing traders, we recommend monitoring the 4-hour charts.</p>
+<p><strong>Note 1</strong>: Regardless of whether you are doing scalping, day trading, or swing trading, you always need to analyze the chart on all major time frames.</p>
 </blockquote>
+<blockquote>
+<p><strong>Note 2</strong>: For day traders, we recommend monitoring the 15-minute charts. For swing traders, we recommend monitoring the 4-hour charts.</p>
+</blockquote>
+<doc-anchor-target id="preparations">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#preparations">#</doc-anchor-trigger>
+        <span>Preparations</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Thoroughly analyze the market structure.</li>
+<li>Identify the <strong>support</strong> and <strong>resistance</strong> zones.</li>
+<li>Plot the <strong>anchored VWAP</strong> from the swing high and the swing low.</li>
+<li>Draw the <strong>trend lines</strong>.</li>
+</ul>
 <doc-anchor-target id="when-to-enter">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#when-to-enter">#</doc-anchor-trigger>
@@ -333,7 +333,8 @@
 <li>The price action must pull back towards the blue fast channel then you need to see a rebound off that channel.</li>
 <li>The blue fast channel must completely be above the red slow channel.</li>
 <li>The <strong>LMD</strong> indicator must not be <strong>above 70</strong> when entering the position.</li>
-<li>The price action must also be above the <strong>VWAP</strong> of the trading session and above the <strong>200 linear regression slope</strong> of the <strong>FWD</strong> indicator.</li>
+<li>You need a <strong>hidden bullish divergence</strong> on the 15-minute time frame and a <strong>regular bullish divergence</strong> on the 1-minute time-frame. You can identify these divergences using both the <strong>LMD</strong> and <strong>VTD</strong> indicators. If you are swing trading, you can spot such divergences on the high time frames (e.g. The daily and the 4-hour).</li>
+<li>If you are day trading, then the price action must also be above the <strong>VWAP</strong> of the trading session and above the <strong>200 linear regression slope</strong> of the <strong>FWD</strong> indicator.</li>
 </ul>
 <doc-anchor-target id="for-short-positions">
     <h3>
@@ -345,7 +346,8 @@
 <li>The price action must pull back towards the blue fast channel then you need to see a rebound off that channel.</li>
 <li>The blue fast channel must completely be below the red slow channel.</li>
 <li>The <strong>LMD</strong> indicator must not be <strong>below 30</strong> when entering the position.</li>
-<li>The price action must also be below the <strong>VWAP</strong> of the trading session and below the <strong>200 linear regression slope</strong> of the <strong>FWD</strong> indicator.</li>
+<li>You need a <strong>hidden bearish divergence</strong> on the 15-minute time frame and a <strong>regular bearish divergence</strong> on the 1-minute time-frame. You can identify these divergences using both the <strong>LMD</strong> and <strong>VTD</strong> indicators. If you are swing trading, you can spot such divergences on the high time frames (e.g. The daily and the 4-hour).</li>
+<li>If you are day trading, then the price action must also be below the <strong>VWAP</strong> of the trading session and below the <strong>200 linear regression slope</strong> of the <strong>FWD</strong> indicator.</li>
 </ul>
 <doc-anchor-target id="where-to-place-the-stop-loss">
     <h2>
@@ -377,6 +379,19 @@
 <li>It is advisable not to risk more than <strong>1%-2%</strong> per trade.</li>
 <li>When you are starting out, do not use leverage. When you become consistently profitable for at least <strong>8 months</strong> in a row, you can then consider using very low leverage (<strong>x2-x5</strong>).</li>
 </ol>
+<doc-anchor-target id="for-reference">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#for-reference">#</doc-anchor-trigger>
+        <span>For Reference</span>
+    </h2>
+</doc-anchor-target>
+<p>As you have noticed, this strategy relies on divergences.
+If you are new to the concept of divergences, a quick cheat sheet can be found below:</p>
+<p><figure class="content-center">
+    <img src="../divergences-cheat-sheet.png" alt="Divergences Cheat Sheet" />
+    <figcaption class="caption">Divergences Cheat Sheet</figcaption>
+</figure>
+</p>
 <doc-anchor-target id="examples">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#examples">#</doc-anchor-trigger>

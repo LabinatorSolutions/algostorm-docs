@@ -5,7 +5,7 @@ tags: [Strategies]
 ---
 # Trend Following Strategy
 
-> Last Edited Date: 26/03/2022
+> Last Edited Date: 29/03/2022
 
 ## Introduction
 
@@ -26,36 +26,33 @@ This is a trend following strategy that utilizes the AlgoStorm's premium indicat
 - Our recommended exchange is [Bybit.com](https://www.bybit.com/en-US/invite?ref=YMYQ0%230)
 - Regardless of the exchange, to close the order, make a post-only limit order to save on fees rather than using the take-profit (TP) feature.
 
-## Preparations
-
-- Thoroughly analyze the market structure.
-- Identify the **support** and **resistance** zones on all major time frames.
-- Plot the **anchored VWAP** from the swing high and the swing low on all major time frames.
-- Analyze the market structure on all major time frames.
-- Draw the **trend lines** on all major time frames.
-
-**Note**: The major time frames in our book are the following: The weekly, daily, hourly, and 15-minute time frames.
-
 ## Required Indicators
 
 - The AlgoStorm Fire & Water Dragon (**FWD**) indicator.
 - The AlgoStorm Legendary Momentum Dragon (**LMD**) indicator.
 
 > **Note 1**: You also need an account on [TradingView.com](https://www.tradingview.com/gopro/?share_your_love=labinatorhub) to load the above indicators.
+
 > **Note 2**: You gain access to the required indicators, please join us at [AlgoStorm.com](https://algostorm.com)
 
 ## Time Frames
 
-- Analyze the chart on the following time frames in this precise order:
-	- The weekly time frame.
+- Analyze the chart on the following time frames:
 	- The daily time frame.
 	- The 4-hour time frame.
-	- The 1-hour time frame.
 	- The 15-minute time frame.
-	- The 5-minute time frame.
+	- The 1-minute time frame.
 
 > **Note 1**: Regardless of whether you are doing scalping, day trading, or swing trading, you always need to analyze the chart on all major time frames.
+
 > **Note 2**: For day traders, we recommend monitoring the 15-minute charts. For swing traders, we recommend monitoring the 4-hour charts.
+
+## Preparations
+
+- Thoroughly analyze the market structure.
+- Identify the **support** and **resistance** zones.
+- Plot the **anchored VWAP** from the swing high and the swing low.
+- Draw the **trend lines**.
 
 ## When To Enter?
 
@@ -64,14 +61,16 @@ This is a trend following strategy that utilizes the AlgoStorm's premium indicat
 - The price action must pull back towards the blue fast channel then you need to see a rebound off that channel.
 - The blue fast channel must completely be above the red slow channel.
 - The **LMD** indicator must not be **above 70** when entering the position.
-- The price action must also be above the **VWAP** of the trading session and above the **200 linear regression slope** of the **FWD** indicator.
+- You need a **hidden bullish divergence** on the 15-minute time frame and a **regular bullish divergence** on the 1-minute time-frame. You can identify these divergences using both the **LMD** and **VTD** indicators. If you are swing trading, you can spot such divergences on the high time frames (e.g. The daily and the 4-hour).
+- If you are day trading, then the price action must also be above the **VWAP** of the trading session and above the **200 linear regression slope** of the **FWD** indicator.
 
 ### For Short Positions
 
 - The price action must pull back towards the blue fast channel then you need to see a rebound off that channel.
 - The blue fast channel must completely be below the red slow channel.
 - The **LMD** indicator must not be **below 30** when entering the position.
-- The price action must also be below the **VWAP** of the trading session and below the **200 linear regression slope** of the **FWD** indicator.
+- You need a **hidden bearish divergence** on the 15-minute time frame and a **regular bearish divergence** on the 1-minute time-frame. You can identify these divergences using both the **LMD** and **VTD** indicators. If you are swing trading, you can spot such divergences on the high time frames (e.g. The daily and the 4-hour).
+- If you are day trading, then the price action must also be below the **VWAP** of the trading session and below the **200 linear regression slope** of the **FWD** indicator.
 
 ## Where To Place The Stop Loss?
 
@@ -87,6 +86,13 @@ This is a trend following strategy that utilizes the AlgoStorm's premium indicat
 1. For best results, practice the art of **entering** and **exiting** the order **in stages**.
 2. It is advisable not to risk more than **1%-2%** per trade.
 3. When you are starting out, do not use leverage. When you become consistently profitable for at least **8 months** in a row, you can then consider using very low leverage (**x2-x5**).
+
+## For Reference
+
+As you have noticed, this strategy relies on divergences.
+If you are new to the concept of divergences, a quick cheat sheet can be found below:
+
+![Divergences Cheat Sheet](./Divergences-Cheat-Sheet.png)
 
 ## Examples
 
