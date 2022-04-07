@@ -34,11 +34,6 @@ links:
     icon: server
     target: blank
 
-  - text: GitHub
-    link: https://labinatorsolutions.github.io/algostorm-docs/
-    icon: mark-github
-    target: blank
-
 footer:
   copyright: © Copyright {{ year }}. [AlgoStorm.com](https://algostorm.com/). All rights reserved.
   links:
