@@ -151,10 +151,11 @@ Look here to see if your blockchain project has been audited. If it has not, the
 
 ### Technical Analysis & Screeners
 
-- [Better Trader Scanner](https://bettertrader.io/)
 - [TradingView](https://www.tradingview.com/gopro/?share_your_love=labinatorhub)
-- [TRDR](https://www.trdr.io/)
+- [ExoCharts](https://exocharts.com/)
 - [QuanTower](https://www.quantower.com/)
+- [TRDR](https://www.trdr.io/)
+- [Better Trader Scanner](https://bettertrader.io/)
 
 ### Launchpads
 

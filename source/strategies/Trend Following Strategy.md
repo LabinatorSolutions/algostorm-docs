@@ -5,7 +5,7 @@ tags: [Strategies]
 ---
 # Trend Following Strategy
 
-> Last Edited Date: 29/03/2022
+> Last Edited Date: 09/04/2022
 
 ## Introduction
 
@@ -29,6 +29,7 @@ This is a trend following strategy that utilizes the AlgoStorm's premium indicat
 ## Required Indicators
 
 - The AlgoStorm Fire & Water Dragon (**FWD**) indicator.
+- The AlgoStorm Volcanic Trend Dragon (**VTD**) indicator.
 - The AlgoStorm Legendary Momentum Dragon (**LMD**) indicator.
 
 > **Note 1**: You also need an account on [TradingView.com](https://www.tradingview.com/gopro/?share_your_love=labinatorhub) to load the above indicators.
@@ -50,7 +51,7 @@ This is a trend following strategy that utilizes the AlgoStorm's premium indicat
 ## Preparations
 
 - Thoroughly analyze the market structure.
-- Identify the **support** and **resistance** zones.
+- Identify the **support/demand** and **resistance/supply** zones.
 - Plot the **anchored VWAP** from the swing high and the swing low.
 - Draw the **trend lines**.
 
@@ -83,9 +84,10 @@ This is a trend following strategy that utilizes the AlgoStorm's premium indicat
 
 ## Extra Pro Tips
 
-1. For best results, practice the art of **entering** and **exiting** the order **in stages**.
-2. It is advisable not to risk more than **1%-2%** per trade.
-3. When you are starting out, do not use leverage. When you become consistently profitable for at least **8 months** in a row, you can then consider using very low leverage (**x2-x5**).
+1. It is advisable not to risk more than **1%-2%** per trade.
+2. When you are starting out, do not use leverage. When you become consistently profitable for at least **8 months** in a row, you can then consider using low leverage (**x2-x5**).
+
+**Side Note:** Many professional traders **enter** and **exit** the market **in stages**.
 
 ## For Reference
 

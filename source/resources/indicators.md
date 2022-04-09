@@ -42,6 +42,8 @@ tags: [Resources]
 - [Chaikin Money Flow (CMF)](https://www.investopedia.com/terms/c/chaikinoscillator.asp)
 - [Money Flow Index (MFI)](https://www.investopedia.com/terms/m/mfi.asp)
 - [Volume Weighted Average Price (VWAP)](https://www.investopedia.com/terms/v/vwap.asp)
+- [Volume Profile](https://www.tradingview.com/support/solutions/43000502040-volume-profile/)
+- [Cumulative Volume Delta (CVD)](https://phemex.com/academy/what-is-cumulative-delta-cvd-indicator)
 
 ## **Section 6 - Fibonacci Indicators**
 
@@ -75,10 +77,11 @@ tags: [Resources]
 - [Reserve Risk](https://www.lookintobitcoin.com/charts/reserve-risk/)
 - [Relative Unrealized Profit/Loss](https://www.lookintobitcoin.com/charts/relative-unrealized-profit--loss/)
 - [Active Address Sentiment Indicator](https://www.lookintobitcoin.com/charts/active-address-sentiment-indicator/)
+- [Supply Distribution](https://academy.santiment.net/metrics/supply-distribution/)
 
 ## Section 10 - Premium Indicators
 
 !!!success AlgoStorm's Indicators
 Our premium perfectly coded and proven to work indicators cover everything you need to become a consistently profitable trader.
-Discover them today at: [!badge variant="primary" text="AlgoStorm.com/Premium-Indicators"](https://algostorm.com/premium-indicators/)
+Discover them today at: [!badge variant="primary" text="AlgoStorm.com"](https://algostorm.com/trading-system/)
 !!!
