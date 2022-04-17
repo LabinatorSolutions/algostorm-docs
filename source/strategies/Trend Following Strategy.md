@@ -5,15 +5,13 @@ tags: [Strategies]
 ---
 # Trend Following Strategy
 
-> Last Edited Date: 09/04/2022
-
 ## Introduction
 
 This is a trend following strategy that utilizes the AlgoStorm's premium indicators. It is suitable for both day traders and swing traders.
 
 ## Requirements
 
-- This strategy is mostly designed for **Cryptocurrencies**. It can work though for other asset classes.
+- This strategy is originally designed for **Cryptocurrencies**. It can work though for other asset classes.
 - First, you need to pick an exchange with low commissions.
 - The asset needs to have a very high market cap. Preferably from the top 50 by market cap.
 - The spread should be very high along with the daily volume.
@@ -59,23 +57,19 @@ This is a trend following strategy that utilizes the AlgoStorm's premium indicat
 
 ### For Long Positions
 
-- The price action must pull back towards the blue fast channel then you need to see a rebound off that channel.
-- The blue fast channel must completely be above the red slow channel.
+- The price action must pull back towards the **FWD Central Band** then bounce from it. You need to observe the candle patterns to confirm the signal.
 - The **LMD** indicator must not be **above 70** when entering the position.
 - You need a **hidden bullish divergence** on the 15-minute time frame and a **regular bullish divergence** on the 1-minute time-frame. You can identify these divergences using both the **LMD** and **VTD** indicators. If you are swing trading, you can spot such divergences on the high time frames (e.g. The daily and the 4-hour).
-- If you are day trading, then the price action must also be above the **VWAP** of the trading session and above the **200 linear regression slope** of the **FWD** indicator.
 
 ### For Short Positions
 
-- The price action must pull back towards the blue fast channel then you need to see a rebound off that channel.
-- The blue fast channel must completely be below the red slow channel.
+- The price action must pull back towards the **FWD Central Band** then bounce from it. You need to observe the candle patterns to confirm the signal.
 - The **LMD** indicator must not be **below 30** when entering the position.
-- You need a **hidden bearish divergence** on the 15-minute time frame and a **regular bearish divergence** on the 1-minute time-frame. You can identify these divergences using both the **LMD** and **VTD** indicators. If you are swing trading, you can spot such divergences on the high time frames (e.g. The daily and the 4-hour).
-- If you are day trading, then the price action must also be below the **VWAP** of the trading session and below the **200 linear regression slope** of the **FWD** indicator.
+- You need a **hidden bullish divergence** on the 15-minute time frame and a **regular bullish divergence** on the 1-minute time-frame. You can identify these divergences using both the **LMD** and **VTD** indicators. If you are swing trading, you can spot such divergences on the high time frames (e.g. The daily and the 4-hour).
 
 ## Where To Place The Stop Loss?
 
-- Place the stop loss 0.2% beyond the slow red channel of the AlgoStorm's **FWD** indicator on the 15-minute time frame. You can also use the key levels on the 4-hour time frame if you are swing trading.
+- Place the stop loss **0.2%** beyond the **FWD Central Band** on the 15-minute time frame. You can also use the key levels on the 4-hour time frame if you are swing trading.
 
 ## When To Take Profit?
 
@@ -84,7 +78,7 @@ This is a trend following strategy that utilizes the AlgoStorm's premium indicat
 
 ## Extra Pro Tips
 
-1. It is advisable not to risk more than **1%-2%** per trade.
+1. It is advisable not to risk more than **3%** per trade.
 2. When you are starting out, do not use leverage. When you become consistently profitable for at least **8 months** in a row, you can then consider using low leverage (**x2-x5**).
 
 **Side Note:** Many professional traders **enter** and **exit** the market **in stages**.

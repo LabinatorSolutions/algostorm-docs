@@ -5,15 +5,13 @@ tags: [Strategies]
 ---
 # Mean Reversion Strategy
 
-> Last Edited Date: 09/04/2022
-
 ## Introduction
 
 This is a mean reversion strategy that utilizes the AlgoStorm's premium indicators. It is suitable for both day traders and swing traders.
 
 ## Requirements
 
-- This strategy is mostly designed for **Cryptocurrencies**. It can work though for other asset classes.
+- This strategy is originally designed for **Cryptocurrencies**. It can work though for other asset classes.
 - First, you need to pick an exchange with low commissions.
 - The asset needs to have a very high market cap. Preferably from the top 50 by market cap.
 - The spread should be very high along with the daily volume.
@@ -60,34 +58,27 @@ This is a mean reversion strategy that utilizes the AlgoStorm's premium indicato
 ### For Long Positions
 
 - You need to spot a **regular bullish divergence** on both the 15-minute and the 1-minute time frames. You can identify these divergences using both the **LMD** and **VTD** indicators. If you are swing trading, you can spot such divergences on the high time frames instead (e.g. The daily and the 4-hour).
-- The blue fast channel must start shaping upwards and it needs not to be lower than the red slow channel.
-- The price action must cross above the red slow channel of the **FWD** indicator. When that happens, then it means the strong trend has ended and a reversal is probable to happen.
+- The price action must crossover the **FWD Central Band** after touching the **FWD's Lower Extreme Zone**.
 - The **LMD** indicator must not be overbought (**above 80**).
-- It is an advantage if you are relatively close to the **Lower Zone** of the **FWD Bands**.
-- If you are day trading, then the price action must also be above the **VWAP** of the trading session and above the **200 linear regression slope** of the **FWD** indicator.
 
 ### For Short Positions
 
 - You need to spot a **regular bearish divergence** on both the 15-minute and the 1-minute time frames. You can identify these divergences using both the **LMD** and **VTD** indicators. If you are swing trading, you can spot such divergences on the high time frames instead (e.g. The daily and the 4-hour).
-- The blue fast channel must start shaping downward and it needs not to be higher than the red slow channel.
-- The price action must cross below the red slow channel of the **FWD** indicator. When that happens, then it means the strong trend has ended and a reversal is probable to happen.
+- The price action must crossunder the **FWD Central Band** after touching the **FWD's Upper Extreme Zone**.
 - The **LMD** indicator must not be oversold (**below 20**).
-- It is an advantage if you are relatively close to the **Upper Zone** of the **FWD Bands**.
-- If you are day trading, then the price action must also be below the **VWAP** of the trading session and below the **200 linear regression slope** of the **FWD** indicator.
 
 ## Where To Place The Stop Loss?
 
-- Place the stop loss **0.4%** beyond the most recent key level of support/resistance on the 15-minute time frame. You can also use the key levels on the 4-hour time frame if you are swing trading.
-- Alternatively, you can place the stop loss directly beyond the **Upper/Lower Zones** of the **FWD Bands**.
+- Place the stop loss **0.2%** beyond the most recent key level of support/resistance on the 15-minute time frame. You can also use the key levels on the 4-hour time frame if you are swing trading.
 
 ## When To Take Profit?
 
-- Calculate the take profit by multiplying the distance of the stop loss from the entry by **2** as we are using a risk to reward ratio of **1:2**.
+- Calculate the take profit by multiplying the distance of the stop loss from the entry by **1.5** as we are using a risk to reward ratio of **1:1.5**.
 - You can also consider selling your order in stages at certain key levels.
 
 ## Extra Pro Tips
 
-1. It is advisable not to risk more than **1%-2%** per trade.
+1. It is advisable not to risk more than **3%** per trade.
 2. When you are starting out, do not use leverage. When you become consistently profitable for at least **8 months** in a row, you can then consider using low leverage (**x2-x5**).
 
 **Side Note:** Many professional traders **enter** and **exit** the market **in stages**.

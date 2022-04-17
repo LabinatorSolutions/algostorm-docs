@@ -11,29 +11,29 @@
     <!-- Primary Meta Tags -->
     <title>Mean Reversion Strategy - AlgoStorm.com</title>
     <meta name="title" content="Mean Reversion Strategy - AlgoStorm.com">
-    <meta name="description" content="Last Edited Date: 09/04/2022" />
+    <meta name="description" content="This is a mean reversion strategy that utilizes the AlgoStorm's premium indicators. It is suitable for both day traders and swing traders." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.algostorm.com/strategies/mean-reversion-strategy/">
     <meta property="og:title" content="Mean Reversion Strategy - AlgoStorm.com">
-    <meta property="og:description" content="Last Edited Date: 09/04/2022">
+    <meta property="og:description" content="This is a mean reversion strategy that utilizes the AlgoStorm's premium indicators. It is suitable for both day traders and swing traders.">
     <meta property="og:image" content="https://docs.algostorm.com/strategies/divergences-cheat-sheet.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.algostorm.com/strategies/mean-reversion-strategy/">
     <meta property="twitter:title" content="Mean Reversion Strategy - AlgoStorm.com">
-    <meta property="twitter:description" content="Last Edited Date: 09/04/2022">
+    <meta property="twitter:description" content="This is a mean reversion strategy that utilizes the AlgoStorm's premium indicators. It is suitable for both day traders and swing traders.">
     <meta property="twitter:image" content="https://docs.algostorm.com/strategies/divergences-cheat-sheet.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=2.2.702818570368" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.703495399771" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.702818570368" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.703495399771" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.702818570368" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.703495399771" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -219,9 +219,6 @@
         <span>Mean Reversion Strategy</span>
     </h1>
 </doc-anchor-target>
-<blockquote>
-<p>Last Edited Date: 09/04/2022</p>
-</blockquote>
 <doc-anchor-target id="introduction">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
@@ -236,7 +233,7 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li>This strategy is mostly designed for <strong>Cryptocurrencies</strong>. It can work though for other asset classes.</li>
+<li>This strategy is originally designed for <strong>Cryptocurrencies</strong>. It can work though for other asset classes.</li>
 <li>First, you need to pick an exchange with low commissions.</li>
 <li>The asset needs to have a very high market cap. Preferably from the top 50 by market cap.</li>
 <li>The spread should be very high along with the daily volume.</li>
@@ -319,11 +316,8 @@
 </doc-anchor-target>
 <ul>
 <li>You need to spot a <strong>regular bullish divergence</strong> on both the 15-minute and the 1-minute time frames. You can identify these divergences using both the <strong>LMD</strong> and <strong>VTD</strong> indicators. If you are swing trading, you can spot such divergences on the high time frames instead (e.g. The daily and the 4-hour).</li>
-<li>The blue fast channel must start shaping upwards and it needs not to be lower than the red slow channel.</li>
-<li>The price action must cross above the red slow channel of the <strong>FWD</strong> indicator. When that happens, then it means the strong trend has ended and a reversal is probable to happen.</li>
+<li>The price action must crossover the <strong>FWD Central Band</strong> after touching the <strong>FWD&#x27;s Lower Extreme Zone</strong>.</li>
 <li>The <strong>LMD</strong> indicator must not be overbought (<strong>above 80</strong>).</li>
-<li>It is an advantage if you are relatively close to the <strong>Lower Zone</strong> of the <strong>FWD Bands</strong>.</li>
-<li>If you are day trading, then the price action must also be above the <strong>VWAP</strong> of the trading session and above the <strong>200 linear regression slope</strong> of the <strong>FWD</strong> indicator.</li>
 </ul>
 <doc-anchor-target id="for-short-positions">
     <h3>
@@ -333,11 +327,8 @@
 </doc-anchor-target>
 <ul>
 <li>You need to spot a <strong>regular bearish divergence</strong> on both the 15-minute and the 1-minute time frames. You can identify these divergences using both the <strong>LMD</strong> and <strong>VTD</strong> indicators. If you are swing trading, you can spot such divergences on the high time frames instead (e.g. The daily and the 4-hour).</li>
-<li>The blue fast channel must start shaping downward and it needs not to be higher than the red slow channel.</li>
-<li>The price action must cross below the red slow channel of the <strong>FWD</strong> indicator. When that happens, then it means the strong trend has ended and a reversal is probable to happen.</li>
+<li>The price action must crossunder the <strong>FWD Central Band</strong> after touching the <strong>FWD&#x27;s Upper Extreme Zone</strong>.</li>
 <li>The <strong>LMD</strong> indicator must not be oversold (<strong>below 20</strong>).</li>
-<li>It is an advantage if you are relatively close to the <strong>Upper Zone</strong> of the <strong>FWD Bands</strong>.</li>
-<li>If you are day trading, then the price action must also be below the <strong>VWAP</strong> of the trading session and below the <strong>200 linear regression slope</strong> of the <strong>FWD</strong> indicator.</li>
 </ul>
 <doc-anchor-target id="where-to-place-the-stop-loss">
     <h2>
@@ -346,8 +337,7 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li>Place the stop loss <strong>0.4%</strong> beyond the most recent key level of support/resistance on the 15-minute time frame. You can also use the key levels on the 4-hour time frame if you are swing trading.</li>
-<li>Alternatively, you can place the stop loss directly beyond the <strong>Upper/Lower Zones</strong> of the <strong>FWD Bands</strong>.</li>
+<li>Place the stop loss <strong>0.2%</strong> beyond the most recent key level of support/resistance on the 15-minute time frame. You can also use the key levels on the 4-hour time frame if you are swing trading.</li>
 </ul>
 <doc-anchor-target id="when-to-take-profit">
     <h2>
@@ -356,7 +346,7 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li>Calculate the take profit by multiplying the distance of the stop loss from the entry by <strong>2</strong> as we are using a risk to reward ratio of <strong>1:2</strong>.</li>
+<li>Calculate the take profit by multiplying the distance of the stop loss from the entry by <strong>1.5</strong> as we are using a risk to reward ratio of <strong>1:1.5</strong>.</li>
 <li>You can also consider selling your order in stages at certain key levels.</li>
 </ul>
 <doc-anchor-target id="extra-pro-tips">
@@ -366,7 +356,7 @@
     </h2>
 </doc-anchor-target>
 <ol>
-<li>It is advisable not to risk more than <strong>1%-2%</strong> per trade.</li>
+<li>It is advisable not to risk more than <strong>3%</strong> per trade.</li>
 <li>When you are starting out, do not use leverage. When you become consistently profitable for at least <strong>8 months</strong> in a row, you can then consider using low leverage (<strong>x2-x5</strong>).</li>
 </ol>
 <p><strong>Side Note:</strong> Many professional traders <strong>enter</strong> and <strong>exit</strong> the market <strong>in stages</strong>.</p>
