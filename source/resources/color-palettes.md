@@ -5,7 +5,7 @@ tags: [Resources]
 ---
 # Color Palettes
 
-## Part 1 - AlgoStorm's Default Palette
+## Part 1 - AlgoStorm's Modern Palette
 
 - **Green Candle**: <span style="color:#5e81ac; background-color:#131722;">#5e81ac</span> (Horizon)
 - **Red Candle**: <span style="color:#bf616a; background-color:#131722;">#bf616a</span> (Contessa)
@@ -17,17 +17,17 @@ tags: [Resources]
 - **Red Candle**: <span style="color:#8d7bd3; background-color:#000000;">#8d7bd3</span> (Moody Blue)
 - **Background**: <span style="color:#000000; background: #c7c7c7;">#000000</span> (Solid Black)
 
-## Part 3 - AlgoStorm's Old Palette
-
-- **Green Candle**: <span style="color:#5b9cf6; background-color:#131822;">#5b9cf6</span> (Cornflower Blue)
-- **Red Candle**: <span style="color:#8572c9; background-color:#131822;">#8572c9</span> (Blue Marguerite)
-- **Background**: <span style="color:#131822; background: #c7c7c7;">#131822</span> (Mirage)
-
-## Part 4 - AlgoStorm's Pale Palette
+## Part 3 - AlgoStorm's Pale Palette
 
 - **Green Candle**: <span style="color:#6d9eeb; background-color:#02121d;">#6d9eeb</span> (Cornflower Blue)
 - **Red Candle**: <span style="color:#c27ba0; background-color:#02121d;">#c27ba0</span> (Viola)
 - **Background**: <span style="color:#02121d; background: #c7c7c7;">#02121d</span> (Mirage)
+
+## Part 4 - AlgoStorm's Cold Palette
+
+- **Green Candle**: <span style="color:#5b9cf6; background-color:#131822;">#5b9cf6</span> (Cornflower Blue)
+- **Red Candle**: <span style="color:#8572c9; background-color:#131822;">#8572c9</span> (Blue Marguerite)
+- **Background**: <span style="color:#131822; background: #c7c7c7;">#131822</span> (Mirage)
 
 ## Part 5 - AlgoStorm's Classical Palette
 

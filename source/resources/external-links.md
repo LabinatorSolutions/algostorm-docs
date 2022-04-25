@@ -130,16 +130,16 @@ Look here to see if your blockchain project has been audited. If it has not, the
 
 #### Editor's Selections
 
+- [CryptoQuant](https://cryptoquant.com/)
 - [Santiment](https://app.santiment.net/pricing?fpr=02w26)
-- [Look Into Bitcoin](https://www.lookintobitcoin.com/)
 
 #### Other Selections
 
 - [BlockChain Center](https://www.blockchaincenter.net/)
 - [Blockware Intelligence](https://www.blockwareintelligence.com/)
-- [CryptoQuant](https://cryptoquant.com/)
 - [GlassNode](https://glassnode.com/)
 - [IntoTheBlock](https://intotheblock.com/)
+- [Look Into Bitcoin](https://www.lookintobitcoin.com/)
 - [WhaleMap](https://whalemap.io/)
 - [WooBull Charts](http://charts.woobull.com/)
 
@@ -151,10 +151,11 @@ Look here to see if your blockchain project has been audited. If it has not, the
 
 ### Technical Analysis & Screeners
 
-- [TradingView](https://www.tradingview.com/gopro/?share_your_love=labinatorhub)
-- [ExoCharts](https://exocharts.com/)
+- [TradingView](https://www.tradingview.com/gopro/?share_your_love=labinatorhub) - Editor's Choice!
+- [ExoCharts](https://exocharts.com/) - Editor's Choice!
 - [QuanTower](https://www.quantower.com/)
 - [TRDR](https://www.trdr.io/)
+- [Sierra Chart](https://www.sierrachart.com/)
 - [Better Trader Scanner](https://bettertrader.io/)
 
 ### Launchpads
@@ -296,7 +297,7 @@ Non-Fungible Token (NFT) refers to digital assets with unique characteristics. U
 
 ## Education
 
-- [AlgoStorm](https://algostorm.com/) - Editor's Choice : Premium educational portal with indicators and daily market analysis.
+- [AlgoStorm](https://algostorm.com/) - Editor's Choice
 - [Binance Academy](https://academy.binance.com/)
 - [Investopedia](https://www.investopedia.com/)
 - [Ichimoku Trader](https://www.ichimokutrader.com/)
