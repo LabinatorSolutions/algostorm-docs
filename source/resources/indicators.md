@@ -26,24 +26,29 @@ tags: [Resources]
 
 ## **Section 3 - Momentum Indicators**
 
+- [Average Directional Index (ADX)](https://www.investopedia.com/articles/trading/07/adx-trend-indicator.asp)
+- [Moving Average Convergence Divergence (MACD)](https://www.investopedia.com/terms/m/macd.asp)
 - [Relative Strength Index (RSI)](https://www.investopedia.com/terms/s/stochrsi.asp)
 - [Stochastic Oscillator (Stoch)](https://www.investopedia.com/terms/s/stochasticoscillator.asp)
-- [Moving Average Convergence Divergence (MACD)](https://www.investopedia.com/terms/m/macd.asp)
-- [Average Directional Index (ADX)](https://www.investopedia.com/articles/trading/07/adx-trend-indicator.asp)
+- [Stochastic Relative Strength Index (Stoch RSI)](https://www.investopedia.com/terms/s/stochrsi.asp)
+- [True Strength Indicator (TSI)](https://www.investopedia.com/terms/t/tsi.asp)
 
 ## **Section 4 - Volatility Indicators**
 
-- [Bollinger Bands (BB)](https://www.investopedia.com/terms/b/bollingerbands.asp)
-- [Keltner Channel](https://www.investopedia.com/terms/k/keltnerchannel.asp)
 - [Average True Range (ATR)](https://www.investopedia.com/terms/a/atr.asp)
+- [Bollinger Bands (BB)](https://www.investopedia.com/terms/b/bollingerbands.asp)
+- [Donchian Channel](https://www.investopedia.com/terms/d/donchianchannels.asp)
+- [Keltner Channel](https://www.investopedia.com/terms/k/keltnerchannel.asp)
 
 ## **Section 5 - Volume Indicators**
 
 - [Chaikin Money Flow (CMF)](https://www.investopedia.com/terms/c/chaikinoscillator.asp)
-- [Money Flow Index (MFI)](https://www.investopedia.com/terms/m/mfi.asp)
-- [Volume Weighted Average Price (VWAP)](https://www.investopedia.com/terms/v/vwap.asp)
-- [Volume Profile](https://www.tradingview.com/support/solutions/43000502040-volume-profile/)
 - [Cumulative Volume Delta (CVD)](https://phemex.com/academy/what-is-cumulative-delta-cvd-indicator)
+- [Klinger Oscillator](https://www.investopedia.com/terms/k/klingeroscillator.asp)
+- [Money Flow Index (MFI)](https://www.investopedia.com/terms/m/mfi.asp)
+- [On-Balance Volume (OBV)](https://www.investopedia.com/terms/o/onbalancevolume.asp)
+- [Volume Profile](https://www.tradingview.com/support/solutions/43000502040-volume-profile/)
+- [Volume Weighted Average Price (VWAP)](https://www.investopedia.com/terms/v/vwap.asp)
 
 ## **Section 6 - Fibonacci Indicators**
 
