@@ -7,14 +7,14 @@ tags: [Resources]
 
 ## Part 1 - AlgoStom's Modern Palette
 
-- **Green Candle**: <span style="color:#88c0d0; background-color:#131722;">#88c0d0</span> (Horizon)
-- **Red Candle**: <span style="color:#bf616a; background-color:#131722;">#bf616a</span> (Contessa)
+- **Green Candle**: <span style="color:#88c0d0; background-color:#131722;">#88c0d0</span> (Nordic Frost Ice)
+- **Red Candle**: <span style="color:#bf616a; background-color:#131722;">#bf616a</span> (Nordic Aurora Red)
 - **Background**: <span style="color:#131722; background: #c7c7c7;">#131722</span> (Mirage)
 
 ## Part 2 - AlgoStorm's Fire & Water Palette
 
-- **Green Candle**: <span style="color:#5e81ac; background-color:#131722;">#5e81ac</span> (Horizon)
-- **Red Candle**: <span style="color:#bf616a; background-color:#131722;">#bf616a</span> (Contessa)
+- **Green Candle**: <span style="color:#5e81ac; background-color:#131722;">#5e81ac</span> (Nordic Light Blue)
+- **Red Candle**: <span style="color:#bf616a; background-color:#131722;">#bf616a</span> (Nordic Aurora Red)
 - **Background**: <span style="color:#131722; background: #c7c7c7;">#131722</span> (Mirage)
 
 ## Part 3 - AlgoStorm's Classical Palette
