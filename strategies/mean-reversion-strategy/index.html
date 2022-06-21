@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.3.0.707472252163">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.3.0.709095958959">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.3.0">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.3.0.707472252163" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.3.0.709095958959" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.3.0.707472252163" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.3.0.709095958959" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.3.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.3.0.707472252163" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.3.0.709095958959" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -258,7 +258,8 @@
         <span>Introduction</span>
     </h2>
 </doc-anchor-target>
-<p>This is a mean reversion strategy that utilizes the AlgoStorm&#x27;s premium indicators. It is suitable for both day traders and swing traders.</p>
+<p>This is a mean reversion strategy that utilizes the AlgoStorm&#x27;s premium indicators. It is suitable for both day traders and swing traders.
+Although this strategy was originally designed for <strong>Cryptocurrencies</strong>, It can work on other asset classes.</p>
 <doc-anchor-target id="requirements">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#requirements">#</doc-anchor-trigger>
@@ -266,12 +267,9 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li>This strategy is originally designed for <strong>Cryptocurrencies</strong>. It can work though for other asset classes.</li>
-<li>First, you need to pick an exchange with low commissions.</li>
 <li>The asset needs to have a very high market cap. Preferably from the top 50 by market cap.</li>
 <li>The spread should be very high along with the daily volume.</li>
 <li>The asset needs to have very strong fundamentals, healthy on-chain metrics, and a good, reputable history.</li>
-<li>The assets must fluctuate by at least 1% every 4 hours on average.</li>
 <li>Check our Discord server for our selected list of assets that are suitable for trading. To join, visit: <a href="https://algostorm.com">AlgoStorm.com</a></li>
 </ul>
 <doc-anchor-target id="exchange-related-notes">
@@ -310,15 +308,18 @@
 <ul>
 <li>Analyze the chart on the following time frames:
 <ul>
+<li>The weekly time frame.</li>
 <li>The daily time frame.</li>
 <li>The 4-hour time frame.</li>
+<li>The 1-hour time frame.</li>
 <li>The 15-minute time frame.</li>
+<li>The 5-minute time frame.</li>
 <li>The 1-minute time frame.</li>
 </ul>
 </li>
 </ul>
 <blockquote>
-<p><strong>Note 1</strong>: Regardless of whether you are doing scalping, day trading, or swing trading, you always need to analyze the chart on all major time frames.</p>
+<p><strong>Note 1</strong>: Regardless of whether you are doing scalping, day trading, or swing trading, you always need to conduct top-down analysis before trading.</p>
 </blockquote>
 <blockquote>
 <p><strong>Note 2</strong>: For day traders, we recommend monitoring the 15-minute charts. For swing traders, we recommend monitoring the 4-hour charts.</p>
@@ -349,7 +350,7 @@
 </doc-anchor-target>
 <ul>
 <li>You need to spot a <strong>regular bullish divergence</strong> on both the 15-minute and the 1-minute time frames. You can identify these divergences using both the <strong>LMD</strong> and <strong>VTD</strong> indicators. If you are swing trading, you can spot such divergences on the high time frames instead (e.g. The daily and the 4-hour).</li>
-<li>The price action must crossover the <strong>FWD Central Band</strong> after touching the <strong>FWD&#x27;s Lower Extreme Zone</strong>.</li>
+<li>The price action must crossover the <strong>FWD Opal Channel</strong> after touching the <strong>FWD&#x27;s Lower Extreme Zone</strong>.</li>
 <li>The <strong>LMD</strong> indicator must not be overbought (<strong>above 80</strong>).</li>
 </ul>
 <doc-anchor-target id="for-short-positions">
@@ -360,7 +361,7 @@
 </doc-anchor-target>
 <ul>
 <li>You need to spot a <strong>regular bearish divergence</strong> on both the 15-minute and the 1-minute time frames. You can identify these divergences using both the <strong>LMD</strong> and <strong>VTD</strong> indicators. If you are swing trading, you can spot such divergences on the high time frames instead (e.g. The daily and the 4-hour).</li>
-<li>The price action must crossunder the <strong>FWD Central Band</strong> after touching the <strong>FWD&#x27;s Upper Extreme Zone</strong>.</li>
+<li>The price action must crossunder the <strong>FWD Opal Channel</strong> after touching the <strong>FWD&#x27;s Upper Extreme Zone</strong>.</li>
 <li>The <strong>LMD</strong> indicator must not be oversold (<strong>below 20</strong>).</li>
 </ul>
 <doc-anchor-target id="where-to-place-the-stop-loss">
